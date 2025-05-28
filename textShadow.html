@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Shadow Generator</title>
+    <link rel="stylesheet" href="textShadow.css">
+</head>
+<body>
+    <div class="navbar"> 
+        <nav>
+            <a href="cssgenerato.html">Home</a>
+            <a href="BoxShadow.html">Box Shadow</a>
+            <a href="textShadow.html">Text Shadow</a>
+            <a href="BorderRadius.html">Border Radius</a>
+             
+        </nav></div>
+        
+    <div class="container"> 
+        <i> <h2>Text Shadow Generator</h2></i>
+
+        <div class="text">This Text is the preview text</div>
+
+        <div class="controls">
+            <div class="control">
+                <label>Horizontal Shadow</label>
+                <input type="range" id="h-shadow" min="-50" max="50" value="0">
+            </div>
+
+            <div class="control">
+                <label>Vertical Shadow</label>
+                <input type="range" id="v-shadow" min="-50" max="50" value="0">
+            </div>
+
+            <div class="control">
+                <label>Blur Radius</label>
+                <input type="range" id="blur-shadow" min="0" max="100" value="0">
+            </div>
+
+            <div class="control">
+                <label>Shadow Color</label>
+                <input type="color" id="shadow-color" value="#000000">
+            </div>
+        </div>
+    </div>
+
+    <script src="textShadow.js"></script> 
+</body>
+</html>

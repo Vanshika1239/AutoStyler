@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: azure;
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* home css */
+.containers {
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  /* width: 100%; */
+  height: 150px;
+
+  box-shadow: 20px 20px 20px rgb(144, 143, 143);
+}
+h1 {
+  /* animation-name: animate__bounce;
+    animation-duration: 2s; */
+  color: brown;
+  font-size: 60px;
+  font-style: italic;
+}
+.section {
+  margin-top: 150px;
+}
+.box-home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+.box a {
+  display: block;
+  background-color: lightcoral;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.box a:hover {
+  background-color: rgb(207, 152, 161);
+  transform: scale(1.05);
+  /* border-top-left-radius: ; */
+}
+/* -------------------------------- */
+
+/*-------- box shadow------------- */
+.navbar {
+  margin: 40px 20px;
+  box-shadow: 15px 15px 15px rgb(215, 213, 213);
+  padding: 20px;
+}
+nav a {
+  color: black;
+  margin: 30px;
+  font-size: 19px;
+  padding: 30px;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  justify-content: space-between;
+  /* padding-top: 20px; */
+  gap: 20px;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: rgb(213, 108, 108);
+  transform: scale(1.05);
+  /* background-color:rgb(246, 248, 248); */
+}
+
+.container {
+  background-color: rgb(226, 219, 221);
+  padding: 20px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 50px auto;
+  box-shadow: 20px 20px 20px rgb(85, 84, 84);
+}
+.result {
+  padding: 20px 0;
+  background-color: lightgrey;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.element {
+  height: 100px;
+  width: 90px;
+  position: relative;
+  background-color: azure;
+}
+h3 {
+  color: brown;
+}
+.slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 20px;
+}
+.code-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
